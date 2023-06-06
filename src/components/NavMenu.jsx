@@ -12,7 +12,6 @@ const NavMenu = () => {
         <header className="header">
             <section className="container">
                 <div className="logo">
-                    
                     <Link className='logo-text' to="/">
                         <img className="logo-letter" src={Logo} alt="Logo" />isira
                     </Link>
