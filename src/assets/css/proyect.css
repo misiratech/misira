@@ -1,0 +1,145 @@
+.proyect{
+    background-color: rgba(0, 0, 0, 0.526);
+}
+.section-proyect {
+    padding: 2rem 1rem;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.proyect-title {
+    margin: 2rem auto;
+    padding: .5rem 0;
+    text-align: center;
+}
+
+.footer-proyect {
+
+    display: grid;
+    grid-template-columns: repeat(2, 45%);
+    justify-content: space-between;
+    margin: 1rem auto;
+
+}
+
+.proyect-card {
+    text-align: center;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.proyect-card>p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: var(--four-color);
+}
+.p-proyect{
+    color: var(--four-color);
+}
+
+.swiper-card {
+    position: relative;
+    max-height: 500px;
+    max-width: 500px;
+}
+
+
+.swiper-card-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.swiper-card-text {
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 15px;
+    font-size: 0.9rem;
+    background-color: var(--white-color);
+}
+
+.slide-proyects img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.proyect-card svg path{
+    fill: var(--white-color);
+}
+
+.swiper-container-free-mode > .swiper-wrapper{
+    transition-timing-function : linear;
+  }
+
+@media screen and (min-width: 768px) {
+
+
+    .section-proyect {
+        display: grid;
+        grid-template-columns: repeat(3, 26.66%);
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+
+    }
+
+    .footer-proyect {
+        grid-column: span 3;
+        grid-template-columns: repeat(3, 30%);
+
+    }
+
+    .slide-proyects {
+        grid-column: span 3;
+    }
+
+    .section-proyect>.proyect-title {
+        grid-column: span 3;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+
+}
+
+
+
+@media screen and (min-width: 1024px) {
+
+    .footer-proyect {
+        grid-template-columns: repeat(6, 15%);
+        justify-content: center;
+
+    }
+
+    .swiper-card {
+        max-height: 350px;
+        max-width: 500px;
+    }
+
+    .proyect-card {
+        border-left: 0.1rem solid var(--second-color);
+    }
+
+    .proyect-card:first-child {
+        border-left: none;
+
+    }
+
+    .slide-proyects img {
+        max-height: 300px;
+    }
+
+}
+

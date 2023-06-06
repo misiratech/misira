@@ -1,0 +1,158 @@
+.service {
+    position: relative;
+    overflow: hidden;
+}
+.service::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.526)), url('../img//img1.jpg');
+    background-size: cover;
+    background-position: center;
+    animation: zoomInOut 8s ease-in-out infinite alternate;
+    z-index: -1;
+}
+
+
+.service-title {
+    margin: 2rem auto;
+    padding: .5rem 0;
+    text-align: center;
+    color: var(--black-color);
+}
+
+.services-section {
+    padding: 2rem 1rem;
+}
+
+.service-card {
+    position: relative;
+    /* width: 100%; */
+    max-width: 500px;
+    margin: 1rem auto;
+    display: block;
+}
+
+.service-card-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--first-color);
+    padding: 1rem;
+    opacity: 0;
+    border-radius: 20px;
+    pointer-events: none;
+    transition: all 0.5 ease-in-out;
+
+}
+
+.service-card:hover .service-card-info {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.service-card-info>div {
+    padding: 1rem;
+    border: thin solid var(--white-color);
+    width: 100%;
+    height: 100%;
+}
+
+.service-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.service-card h3 {
+    color: var(--white-color);
+}
+
+.service-card p {
+    color: var(--white-color);
+}
+
+.h2-service {
+    font-size: 30px;
+    color: var(--four-color);
+}
+
+.p-service {
+    color: var(--four-color);
+}
+
+@media screen and (min-width: 768px) {
+    .service>.container {
+        display: grid;
+        grid-template-columns: repeat(3, 30%);
+        justify-content: space-between;
+        align-content: center;
+    }
+
+    .service-card-p {
+        font-size: 0.8rem;
+
+    }
+
+    .service .service-title {
+        grid-column: span 3;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .h2-service {
+        font-size: 2.6rem;
+        text-align: start;
+    }
+
+    .p-service {
+        text-align: start;
+        margin-left: 50px
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .full-lg-screem {
+        width: 100%;
+        min-height: 100vh;
+    }
+
+    .service>.container {
+        grid-template-columns: repeat(3, 30%);
+
+    }
+
+    .service .service-title {
+        grid-column: span 3;
+    }
+
+    .p-service {
+        margin-left: 50px
+    }
+
+    .service-card-p {
+        font-size: 1rem;
+
+    }
+}
+
+@keyframes zoomInOut {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+}

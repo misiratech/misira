@@ -1,0 +1,60 @@
+.section-home {
+    background-color: rgba(0, 0, 0, 0.526);
+}
+
+.hero-image-opacity {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+
+}
+.hero-image-content{
+   margin: 2rem auto;
+   padding: 4rem 1rem;
+}
+.home-title {
+    font-size: 6.0vw;
+    color: var(--four-color);
+}
+
+.home-subtitle {
+    color: var(--four-color);
+}
+
+.description {
+    padding: 1.5rem 1rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    color: var(--four-color);
+}
+
+
+.btn-home {
+    border-radius: .5rem;
+    padding: 0.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    font-family: 'Poppins-Regular';
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--white-color);
+    background-color: var(--first-color);
+}
+
+.btn-home>svg {
+    height: 2rem;
+    width: 2rem;
+    margin-left: 0.5rem;
+}
+
+.content-btn-home {
+    display: flex;
+    justify-content: center;
+}
+

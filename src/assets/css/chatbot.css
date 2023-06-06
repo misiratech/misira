@@ -1,0 +1,11 @@
+.frame-chat{
+    border-radius: 0.3rem;
+    position:fixed;
+    width: 26rem;
+    height: 30rem;
+    z-index: 999;
+    bottom: 9vh;
+    right: 1vw;
+    border: solid 0.14rem black;
+
+}
