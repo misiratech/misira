@@ -19,7 +19,7 @@ const AboutUs1 = () => {
           </aside>
           <p>El módulo proporciona herramientas para cargar los datos de tamaño de partícula obtenidos mediante técnicas como tamizado, y ofrece funciones de análisis estadístico para calcular parámetros como el tamaño promedio, el coeficiente de determinación y la distribución granulométrica.</p>
           <div className="text-center-about text-lg-left-about">
-            <Link className="btn" to="/informacion1">Más información</Link>
+            <Link className="btn" to="/misira/informacion1">Más información</Link>
           </div>
         </article>
       </div>

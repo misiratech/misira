@@ -11,7 +11,7 @@ const AboutDetails2 = () => {
                     </aside>
                     <p>El módulo dimensionamiento de equipos se refiere al proceso de determinar el tamaño y la capacidad adecuada de los equipos utilizados en un proceso metalúrgico. Estos equipos pueden incluir trituradoras, molinos, tamices, separadores, tanques de lixiviación, espesadores, entre otros.</p>
                     <div className="text-center-about text-lg-left-about">
-                        <Link className="btn" to="/informacion4">Más información</Link>
+                        <Link className="btn" to="/misira/informacion4">Más información</Link>
                     </div>
                 </article>
                 <article className='img-content-about'>

@@ -50,6 +50,18 @@ const Info5 = () => {
                             <SwiperSlide className='sd-content-swiper'>
                                 <img src={valo4} />
                             </SwiperSlide>
+                            <SwiperSlide className='sd-content-swiper'>
+                                <img src={valo1} />
+                            </SwiperSlide>
+                            <SwiperSlide className='sd-content-swiper'>
+                                <img src={valo2} />
+                            </SwiperSlide>
+                            <SwiperSlide className='sd-content-swiper'>
+                                <img src={valo3} />
+                            </SwiperSlide>
+                            <SwiperSlide className='sd-content-swiper'>
+                                <img src={valo4} />
+                            </SwiperSlide>
                         </Swiper>
                     </div>
                 </div>

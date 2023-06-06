@@ -52,6 +52,18 @@ const Info1 = () => {
               <SwiperSlide className='sd-content-swiper'>
                 <img src={if16} />
               </SwiperSlide>
+              <SwiperSlide className='sd-content-swiper'>
+                <img src={if13} />
+              </SwiperSlide>
+              <SwiperSlide className='sd-content-swiper'>
+                <img src={if14} />
+              </SwiperSlide>
+              <SwiperSlide className='sd-content-swiper'>
+                <img src={if15} />
+              </SwiperSlide>
+              <SwiperSlide className='sd-content-swiper'>
+                <img src={if16} />
+              </SwiperSlide>
             </Swiper>
           </div>
         </div>
@@ -88,14 +100,15 @@ const Info1 = () => {
               <MathJax>
                 <div className='mat-container'>
                   <span className='mat-content'>
-                    {"\\(\\frac{10}{4x} \\approx 2^{12}\\)"}</span>
+                    {"\\(F(x) = 100\\left(\\frac{x}{x_0}\\right)^a\\)"}</span>
                 </div>
               </MathJax>
               <p>Donde:</p>
               <ul className='sd-list'>
-                <li>F(x) = Porcentaje acumulado pasante.</li>
-                <li>Xr = Es el módulo de tamaño.</li>
-                <li>m = Es el módulo de distribución.</li>
+                <li>F(x) = % en peso acumulado pasante por cada malla.</li>
+                <li>x = Tamaño de partícula en micrones.</li>
+                <li>xo = Módulo de tamaño el cual indica el tamaño teórico máximo de partículas en la muestra.</li>
+                <li>a = Módulo de distribución (Pendiente de la recta)</li>
               </ul>
               <img className="list-img" src={if11} />
               <h4 className='text-img'>Función de distribución de Gates-Gaudin-Schumann (G-G-S).</h4>
@@ -107,15 +120,14 @@ const Info1 = () => {
               <MathJax>
                 <div className='mat-container'>
                   <span className='mat-content'>
-                    {"\\(\\frac{10}{4x} \\approx 2^{12}\\)"}</span>
+                  {"\\(f(x) = 100 \\cdot (1 - e^{-\\left(\\frac{x}{x_r}\\right)^m})\\)"}</span>
                 </div>
               </MathJax>
               <p>Donde:</p>
               <ol className='sd-list'>
-                <li>F(x) = % en peso acumulado pasante por cada malla.</li>
-                <li>x = Tamaño de partícula en micrones.</li>
-                <li>xo = Módulo de tamaño el cual indica el tamaño teórico máximo de partículas en la muestra.</li>
-                <li>a = Módulo de distribución (Pendiente de la recta)</li>
+                <li>F(x) = Porcentaje acumulado pasante.</li>
+                <li>Xr = Es el módulo de tamaño.</li>
+                <li>m = Es el módulo de distribución.</li>
               </ol>
               <img className="list-img" src={if12} />
               <h4 className='text-img'>Función de distribución de Rosin-Rammler (R-R).</h4>

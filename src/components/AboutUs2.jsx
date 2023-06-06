@@ -16,7 +16,7 @@ const AboutUs2 = () => {
                     </aside>
                     <p>El módulo de balance metalúrgico es similar al balance de masa, pero se enfoca específicamente en los elementos o compuestos de interés en la metalurgia. Permite realizar un seguimiento de los flujos de los metales o minerales de valor en un proceso y determinar cómo se distribuyen.</p>
                     <div className="text-center-about text-lg-left-about">
-                    <Link className="btn" to="/informacion3">Más información</Link>
+                    <Link className="btn" to="/misira/informacion3">Más información</Link>
                     </div>
                 </article>
             </div>

@@ -18,8 +18,8 @@ const NavMenu = () => {
                 </div>
                 <nav className={`menu ${isActive ? 'is-active' : ''}`}>
                     <NavLink to="/misira">Inicio</NavLink>
-                    <NavLink to="/nosotros">Nosotros</NavLink>
-                    <NavLink to="/contacto">Contacto</NavLink>
+                    <NavLink to="/misira/nosotros">Nosotros</NavLink>
+                    <NavLink to="/misira/contacto">Contacto</NavLink>
                 </nav>
                 <div>
                     <button className="menu-btn" onClick={() => setIsActive(!isActive)}>

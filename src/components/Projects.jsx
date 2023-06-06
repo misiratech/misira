@@ -24,11 +24,23 @@ const Projects = () => {
                         }}
                         navigation={false}
                         loop={true}
-                        speed={3000}
+                        speed={5000}
                         grabCursor={true}
-                        modules={[Autoplay, Navigation]}
+                        modules={[Autoplay]}
                         className='swiper-container-free-mode'
                     >
+                        <SwiperSlide className="swiper-card">
+                            <img src={card1} />
+                        </SwiperSlide>
+                        <SwiperSlide className="swiper-card">
+                            <img src={card2} />
+                        </SwiperSlide>
+                        <SwiperSlide className="swiper-card">
+                            <img src={card3} />
+                        </SwiperSlide>
+                        <SwiperSlide className="swiper-card">
+                            <img src={card4} />
+                        </SwiperSlide>
                         <SwiperSlide className="swiper-card">
                             <img src={card1} />
                         </SwiperSlide>

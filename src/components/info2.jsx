@@ -59,6 +59,18 @@ const Info2 = () => {
               <SwiperSlide className='sd-content-swiper'>
                 <img src={masa4} />
               </SwiperSlide>
+              <SwiperSlide className='sd-content-swiper'>
+                <img src={masa1} />
+              </SwiperSlide>
+              <SwiperSlide className='sd-content-swiper'>
+                <img src={masa2} />
+              </SwiperSlide>
+              <SwiperSlide className='sd-content-swiper'>
+                <img src={masa3} />
+              </SwiperSlide>
+              <SwiperSlide className='sd-content-swiper'>
+                <img src={masa4} />
+              </SwiperSlide>
             </Swiper>
           </div>
         </div>

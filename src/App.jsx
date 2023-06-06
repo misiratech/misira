@@ -33,13 +33,13 @@ function App() {
           <Routes>
             <Route path='/misira' element={<MainContent />} />
             {/* <Route path='/informacion' element={<SectionDetail />} /> */}
-            <Route path='/informacion1' element={<Info1 />} />
-            <Route path='/informacion2' element={<Info2 />} />
-            <Route path='/informacion3' element={<Info3 />} />
-            <Route path='/informacion4' element={<Info4 />} />
-            <Route path='/informacion5' element={<Info5 />} />
-            <Route path='/contacto' element={<Contact />} />
-            <Route path='/nosotros' element={<Services />} />
+            <Route path='/misira/informacion1' element={<Info1 />} />
+            <Route path='/misira/informacion2' element={<Info2 />} />
+            <Route path='/misira/informacion3' element={<Info3 />} />
+            <Route path='/misira/informacion4' element={<Info4 />} />
+            <Route path='/misira/informacion5' element={<Info5 />} />
+            <Route path='/misira/contacto' element={<Contact />} />
+            <Route path='/misira/nosotros' element={<Services />} />
             <Route path="*" element={<Navigate to="/misira" />} />
           </Routes>
           <Footer />

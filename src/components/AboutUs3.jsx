@@ -16,7 +16,7 @@ const AboutUs3 = () => {
                     </aside>
                     <p>El módulo de valorización de concentrados se utiliza para evaluar el valor económico de los concentrados minerales obtenidos en un proceso de beneficio. Permite ingresar los datos de las leyes o concentraciones de los diferentes metales presentes en el concentrado, así como los precios actuales de los metales en el mercado, y realiza cálculos para determinar el valor total del concentrado.</p>
                     <div className="text-center-about text-lg-left-about">
-                        <Link className="btn" to="/informacion5">Más información</Link>
+                        <Link className="btn" to="/misira/informacion5">Más información</Link>
                     </div>
                 </article>
             </div>

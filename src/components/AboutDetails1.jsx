@@ -11,7 +11,7 @@ const AboutDetails1 = () => {
           </aside>
           <p>El módulo de balance de masa se utiliza para determinar cómo se distribuyen los materiales en un sistema metalúrgico. Permite realizar un seguimiento de los flujos de entrada y salida de materiales en un proceso metalúrgico, y calcular las pérdidas o ganancias de masa en cada etapa.</p>
           <div className="text-center-about text-lg-left-about">
-          <Link className="btn" to="/informacion2">Más información</Link>
+          <Link className="btn" to="/misira/informacion2">Más información</Link>
           </div>
         </article>
         <article className='img-content-about'>

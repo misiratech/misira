@@ -11,7 +11,7 @@ const Home = () => {
             <h1 className="home-title">MISIRA</h1>
             <h2 className="description">“Desarrolladores de software metalúrgico”</h2>
             <div className='content-btn-home'>
-              <Link  to="/nosotros"className='btn-home'>
+              <Link  to="/misira/nosotros"className='btn-home'>
                 Saber más
                 <svg
                   width="24"
