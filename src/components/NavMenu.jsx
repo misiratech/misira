@@ -17,7 +17,7 @@ const NavMenu = () => {
                     </Link>
                 </div>
                 <nav className={`menu ${isActive ? 'is-active' : ''}`}>
-                    <NavLink to="/">Inicio</NavLink>
+                    <NavLink to="/misira">Inicio</NavLink>
                     <NavLink to="/nosotros">Nosotros</NavLink>
                     <NavLink to="/contacto">Contacto</NavLink>
                 </nav>

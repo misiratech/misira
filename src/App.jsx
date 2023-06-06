@@ -31,7 +31,7 @@ function App() {
           <ScrollToTop />
           <NavMenu />
           <Routes>
-            <Route path='/' element={<MainContent />} />
+            <Route path='/misira' element={<MainContent />} />
             {/* <Route path='/informacion' element={<SectionDetail />} /> */}
             <Route path='/informacion1' element={<Info1 />} />
             <Route path='/informacion2' element={<Info2 />} />
@@ -40,7 +40,7 @@ function App() {
             <Route path='/informacion5' element={<Info5 />} />
             <Route path='/contacto' element={<Contact />} />
             <Route path='/nosotros' element={<Services />} />
-            <Route path="*" element={<Navigate to="/" />} />
+            <Route path="*" element={<Navigate to="/misira" />} />
           </Routes>
           <Footer />
         </BrowserRouter>
