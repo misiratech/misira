@@ -2,8 +2,6 @@ import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
 import NavMenu from './components/NavMenu'
 import MainContent from './components/MainContent'
-import Contact from './components/Contact'
-import Services from './components/Services'
 import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom'
 import Footer from './components/Footer';
 import './assets/css/root.css'
@@ -22,7 +20,7 @@ import { MathJaxContext } from 'better-react-mathjax'
 // register Swiper custom elements
 register();
 function App() {
-  // const [count, setCount] = useState(0)
+
 
   return (
     <>
@@ -38,8 +36,8 @@ function App() {
             <Route path='/misira/informacion3' element={<Info3 />} />
             <Route path='/misira/informacion4' element={<Info4 />} />
             <Route path='/misira/informacion5' element={<Info5 />} />
-            <Route path='/misira/contacto' element={<Contact />} />
-            <Route path='/misira/nosotros' element={<Services />} />
+            {/* <Route path='/misira/contacto' element={<Contact />} /> */}
+            {/* <Route path='/misira/nosotros' element={<Services />} /> */}
             <Route path="*" element={<Navigate to="/misira" />} />
           </Routes>
           <Footer />

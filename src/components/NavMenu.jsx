@@ -1,12 +1,12 @@
 import { useState } from 'react';
 import '../assets/css/navMenu.css'
 import Chatbot from './Chatbot';
-import { Link, NavLink } from 'react-router-dom';
+import { Link, NavLink, useLocation } from 'react-router-dom';
 import Logo from '../assets/img/logo.png'
 const NavMenu = () => {
     const [isActive, setIsActive] = useState(false)
     const [isActiveChat, setIsActiveChat] = useState(false)
-
+    const location = useLocation();
     return (
 
         <header className="header">
@@ -17,11 +17,6 @@ const NavMenu = () => {
                         <span className="log-letter">ISIRA</span>
                     </div>
                 </Link>
-                <nav className={`menu ${isActive ? 'is-active' : ''}`}>
-                    <NavLink to="/misira">Inicio</NavLink>
-                    <NavLink to="/misira/nosotros">Nosotros</NavLink>
-                    <NavLink to="/misira/contacto">Contacto</NavLink>
-                </nav>
                 <div>
                     <button className="menu-btn" onClick={() => setIsActive(!isActive)}>
                         {isActive ?
@@ -47,6 +42,19 @@ const NavMenu = () => {
                             </svg>}
                     </button>
                 </div>
+                <nav className={`menu ${isActive ? 'is-active' : ''}`}>
+
+                    {/* <NavLink to="/misira/nosotros">Nosotros</NavLink> */}
+                    {location.pathname === "/misira" ? <>
+                        <a href="#home">Inicio</a>
+                        <a href='#service'>Nosotros</a>
+                        <a href='#contact'>Contacto</a>
+                    </> : 
+                    <>
+                        <NavLink to="/misira">Inicio</NavLink>
+                    </>}
+
+                </nav>
                 {isActiveChat && <Chatbot />}
             </section>
         </header>

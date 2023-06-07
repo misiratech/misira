@@ -8,6 +8,8 @@ import AboutDetails2 from './AboutDetails2'
 import AboutUs3 from './AboutUs3'
 import img11 from '../assets/img/img11.jpg'
 import '../assets/css/sectionMain.css'
+import Services from './Services';
+import Contact from './Contact';
 
 
 const MainContent = () => {
@@ -45,12 +47,14 @@ const MainContent = () => {
                 }}
             />
             <Home />
+            <Services />
             <AboutUs1 />
             <AboutDetails1 />
             <AboutUs2 />
             <AboutDetails2 />
             <AboutUs3 />
             <Projects />
+            <Contact />
         </div>
     )
 }

@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import '../assets/css/home.css'
-import { Link } from 'react-router-dom'
+import { Link, useLocation, useNavigate } from 'react-router-dom'
 import { useState } from 'react';
 const Home = () => {
 
@@ -38,7 +38,7 @@ const Home = () => {
 
         setTimeout(() => {
           setCurrentWordIndex((currentWordIndex + 1) % words.length);
-        }, 2000); // Espera 1 segundo antes de pasar a la siguiente palabra
+        }, 2000);
       }
     }, 100);
 
@@ -50,17 +50,17 @@ const Home = () => {
 
 
   return (
-    <section  className="section-home">
+    <section id="home" className="section-home">
       <article className='hero-image'>
         <aside className='hero-image-opacity'>
           <div className='hero-image-content'>
             <h1 className="home-title">MISIRA</h1>
             <h2 className='description'>{displayText}
-            <span className="cursor"></span>
+              <span className="cursor"></span>
             </h2>
             <div className='content-btn-home'>
-              <Link  to="/misira/nosotros"className='btn-home'>
-                Saber más
+              <a href='#contact' className='btn-home'>
+                Contáctanos
                 <svg
                   width="24"
                   height="24"
@@ -72,7 +72,7 @@ const Home = () => {
                     fill="currentColor"
                   />
                 </svg>
-              </Link></div>
+              </a></div>
           </div>
         </aside>
       </article>
