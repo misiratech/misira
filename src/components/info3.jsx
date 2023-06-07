@@ -84,9 +84,9 @@ const Info3 = () => {
                 <div className='sd-aside'>
                     <div className='sd-aside-step'>
                         <ul className='custom-list'>
-                            <li>1. Conocimientos y habilidades técnicas.</li>
-                            <li>2. Flexibilidad y personalización.</li>
-                            <li>3. Escalabilidad y mantenimiento.</li>
+                            <li>Balance metalúrgico definición</li>
+                            <li>Objetivo del balance metalúrgico</li>
+                            <li>Variables del balance metalúrgico.</li>
                         </ul>
                     </div>
                 </div>

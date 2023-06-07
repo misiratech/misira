@@ -73,9 +73,6 @@ const Info5 = () => {
                     </p>
                     <p>El proceso de valorización de concentrados puede involucrar la determinación de los precios de los metales o minerales contenidos en el concentrado, utilizando referencias de precios en los mercados internacionales o acuerdos comerciales establecidos. También se pueden considerar los costos de tratamiento y refinación adicionales que puedan ser necesarios para obtener productos finales de mayor valor.</p>
                     <p>
-                        El proceso de valorización de concentrados puede involucrar la determinación de los precios de los metales o minerales contenidos en el concentrado, utilizando referencias de precios en los mercados internacionales o acuerdos comerciales establecidos. También se pueden considerar los costos de tratamiento y refinación adicionales que puedan ser necesarios para obtener productos finales de mayor valor.
-                    </p>
-                    <p>
                         Es importante destacar que la valorización de concentrados puede verse afectada por factores como las fluctuaciones en los precios de los metales, los costos de transporte y logística, los impuestos y regalías aplicables, así como los acuerdos contractuales con los compradores. Por lo tanto, es necesario realizar análisis periódicos de valorización para adaptarse a las condiciones cambiantes del mercado y optimizar los ingresos generados por la venta de los concentrados.
                     </p>
                     <ul className='sd-list'>
@@ -88,9 +85,9 @@ const Info5 = () => {
                 <div className='sd-aside'>
                     <div className='sd-aside-step'>
                         <ul className='custom-list'>
-                            <li>1. Conocimientos y habilidades técnicas.</li>
-                            <li>2. Flexibilidad y personalización.</li>
-                            <li>3. Escalabilidad y mantenimiento.</li>
+                            <li>Valorización de concentrados minerales: Evaluación de rentabilidad y potencial económico</li>
+                            <li>Valorización de concentrados minerales: Precios, costos y optimización</li>
+                            <li>Optimización de la valorización de concentrados minerales</li>
                         </ul>
                     </div>
 

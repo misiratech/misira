@@ -106,7 +106,7 @@
 }
 
 .custom-list {
-    list-style-type: none;
+
     padding-top: 1.5rem;
     padding-right: 1.5rem;
     padding-left: 1.5rem;
@@ -115,9 +115,6 @@
 
 .custom-list li {
     margin-bottom: 20px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
     font-family: 'Poppins-Light';
     font-size: 0.9rem;
     color: var(--four-color);
@@ -185,7 +182,7 @@
 
 .text-img {
     text-align: center;
-    margin:1rem auto;
+    margin: 1rem auto;
 }
 
 .list-img {
@@ -230,5 +227,11 @@ strong {
 
     .sd-aside {
         grid-column: span 3;
+    }
+
+    .sd-aside-step {
+        position: sticky;
+        top: 100px;
+        right: 10px;
     }
 }

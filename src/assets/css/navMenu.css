@@ -6,7 +6,7 @@
   padding: 1rem;
   width: 100%;
   height: var(--header-height);
-  background-color: var(--second-color);
+  background-color: var(--five-color);
 }
 
 .header>.container {
@@ -17,25 +17,28 @@
 }
 
 .logo {
-  display: flex;
-  align-items: center;
-  margin-right: 53px;
-}
-
-.logo a {
-  color: var(--white-color);
-  font-family: 'Poppins-SemiBold';
   text-decoration: none;
+  color: var(--white-color);
+  font-family: 'Poppins-Bold';
+  margin-right: 40px;
 }
 
-.logo-letter {
-  width: 90px;
-  height: 50px;
+.logo-content {
+  position: relative;
+
 }
-.logo-text{
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
+
+.log-letter {
+position: absolute;
+top: 26px;
+left: 85px;
+}
+
+
+.log-img {
+  width: 120px;
+  height: 60px;
 }
 
 
@@ -67,7 +70,7 @@
   left: 0;
   bottom: var(--header-height);
   width: 100%;
-  background-color: var(--second-color);
+  background-color: var(--five-color);
   display: flex;
   flex-direction: column;
   opacity: 0;

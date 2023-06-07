@@ -5,18 +5,18 @@ const AboutUs2 = () => {
     return (
         <section className='about'>
             <div className="section-about container full-lg-screem">
-                <article className='img-content-about'>
-                    <div className='img-card-about'>
-                        <img className="img-about" src={BalanceMetalurgico} alt="img-about" />
-                    </div>
-                </article>
                 <article className='text-lg-left-about'>
                     <aside className="text-center-about text-lg-left-about">
                         <h2>Balance Metalúrgico</h2>
                     </aside>
                     <p>El módulo de balance metalúrgico es similar al balance de masa, pero se enfoca específicamente en los elementos o compuestos de interés en la metalurgia. Permite realizar un seguimiento de los flujos de los metales o minerales de valor en un proceso y determinar cómo se distribuyen.</p>
                     <div className="text-center-about text-lg-left-about">
-                    <Link className="btn" to="/misira/informacion3">Más información</Link>
+                        <Link className="btn" to="/misira/informacion3">Más información</Link>
+                    </div>
+                </article>
+                <article className='img-content-about'>
+                    <div className='img-card-about'>
+                        <img className="img-about" src={BalanceMetalurgico} alt="img-about" />
                     </div>
                 </article>
             </div>

@@ -1,7 +1,7 @@
 import React from 'react'
 import '../assets/css/sectionDetails.css'
 import { Swiper, SwiperSlide } from "swiper/react";
-import portada2 from '../assets/img/portada2.jpg'
+import portada2 from '../assets/img/met4.jpg'
 import img1 from '../assets/img/img1.jpg'
 import { EffectCoverflow, Autoplay, Navigation } from "swiper";
 

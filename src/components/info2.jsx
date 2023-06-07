@@ -124,9 +124,12 @@ const Info2 = () => {
         <div className='sd-aside'>
           <div className='sd-aside-step'>
             <ul className='custom-list'>
-              <li>Funciones de Distribución</li>
-              <li>1. Función de distribución de Gates-Gaudin-Schumann (G-G-S)</li>
-              <li>2. Función de distribución de Rosin-Rammler</li>
+              <li>Tipos de circuitos</li>
+              <li>Circuito cerrado</li>
+              <li>Circuito abierto</li>
+              <li>Circuito cerrado directo</li>
+              <li>Circuito cerrado inverso</li>
+              <li>Ventajas e inconvenientes entre circuitos abiertos y cerrados</li>
             </ul>
           </div>
 

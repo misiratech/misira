@@ -120,7 +120,7 @@ const Info1 = () => {
               <MathJax>
                 <div className='mat-container'>
                   <span className='mat-content'>
-                  {"\\(f(x) = 100 \\cdot (1 - e^{-\\left(\\frac{x}{x_r}\\right)^m})\\)"}</span>
+                    {"\\(f(x) = 100 \\cdot (1 - e^{-\\left(\\frac{x}{x_r}\\right)^m})\\)"}</span>
                 </div>
               </MathJax>
               <p>Donde:</p>
@@ -138,9 +138,10 @@ const Info1 = () => {
         <div className='sd-aside'>
           <div className='sd-aside-step'>
             <ul className='custom-list'>
+              <li>Métodos y técnicas para el análisis de tamaño</li>
               <li>Funciones de Distribución</li>
-              <li>1. Función de distribución de Gates-Gaudin-Schumann (G-G-S)</li>
-              <li>2. Función de distribución de Rosin-Rammler</li>
+              <li>Función de distribución de Gates-Gaudin-Schumann (G-G-S)</li>
+              <li>Función de distribución de Rosin-Rammler</li>
             </ul>
           </div>
 

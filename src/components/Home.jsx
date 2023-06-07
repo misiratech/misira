@@ -7,7 +7,6 @@ const Home = () => {
       <article className='hero-image'>
         <aside className='hero-image-opacity'>
           <div className='hero-image-content'>
-            <h3 className="home-subtitle">Compañia</h3>
             <h1 className="home-title">MISIRA</h1>
             <h2 className="description">“Desarrolladores de software metalúrgico”</h2>
             <div className='content-btn-home'>

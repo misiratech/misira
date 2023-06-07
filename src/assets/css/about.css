@@ -8,9 +8,6 @@
 
 
 
-.about-details-2 {
-    background-color: rgba(0, 0, 0, 0.526);
-}
 
 
 .section-about {
@@ -65,7 +62,7 @@
 
     .full-lg-screem {
         width: 100%;
-        min-height: 100vh;
+        min-height: 85vh;
     }
 
     .section-about {
@@ -98,10 +95,14 @@
         transform: scale(1.2);
     }
 
-    .about-details-2:hover .img-about {
-        transform: scale(1.2);
+    .about-details-1 .section-about .text-lg-left-about {
+        order: 2;
     }
 
+    .about-details-1 .section-about .img-content-about {
+        order: 1;
+    }
 
+ 
 
 }

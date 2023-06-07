@@ -11,11 +11,12 @@ const NavMenu = () => {
 
         <header className="header">
             <section className="container">
-                <div className="logo">
-                    <Link className='logo-text' to="/">
-                        <img className="logo-letter" src={Logo} alt="Logo" />isira
-                    </Link>
-                </div>
+                <Link className='logo' to="/">
+                    <div className='logo-content'>
+                        <img className="log-img" src={Logo} alt="Logo" />
+                        <span className="log-letter">ISIRA</span>
+                    </div>
+                </Link>
                 <nav className={`menu ${isActive ? 'is-active' : ''}`}>
                     <NavLink to="/misira">Inicio</NavLink>
                     <NavLink to="/misira/nosotros">Nosotros</NavLink>

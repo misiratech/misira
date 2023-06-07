@@ -2,10 +2,10 @@ import React from 'react'
 import { Swiper, SwiperSlide } from "swiper/react";
 import TanqueAgitador from '../assets/img/tanqueAgitador.png'
 import { EffectCoverflow, Autoplay, Navigation } from "swiper";
-import Equipos1 from '../assets/img/equipos1.png'  
-import Equipos2 from '../assets/img/equipos2.png'  
-import Equipos3 from '../assets/img/equipos3.png'  
-import Equipos4 from '../assets/img/equipos4.png'  
+import Equipos1 from '../assets/img/equipos1.png'
+import Equipos2 from '../assets/img/equipos2.png'
+import Equipos3 from '../assets/img/equipos3.png'
+import Equipos4 from '../assets/img/equipos4.png'
 
 const Info4 = () => {
     return (
@@ -78,6 +78,15 @@ const Info4 = () => {
                             <h4 className='text-img'>Cálculos metalúrgicos de un tanque con agitador mécanico</h4>
                         </li>
                     </ul>
+                </div>
+                <div className='sd-aside'>
+                    <div className='sd-aside-step'>
+                        <ul className='custom-list'>
+                            <li>Implicaciones del dimensionamiento de equipos
+                            </li>
+                            <li>Proceso de dimensionamiento</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>

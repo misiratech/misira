@@ -1,24 +1,26 @@
 import React from 'react'
 import '../assets/css/service.css'
+
+import sec1 from '../assets/img/sec1.jpg'
+import sec2 from '../assets/img/sec2.jpg'
+import sec3 from '../assets/img/sec3.jpg'
 const Services = () => {
   return (
     <section className='service'>
       <div className="services-section container full-lg-screem">
         <div className="service-title">
           <h2 className='h2-service'>
-            How to Find the Perfect
-            Coworking Space
+            Acerca de nosotros
           </h2>
-          <p className='p-service'>Lorem ipsum dolor sit amet consectetur, adipisicing .  dolor sit amet consectetur, adipisicing  dolor sit amet consectetur</p>
         </div>
         <article>
           <a className='service-card'>
-            <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+            <img src={sec1} />
             <aside className="service-card-info">
               <div>
-                <h3>Lorem ipsum,</h3>
+                <h3>Misión</h3>
                 <p className='service-card-p'>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus laboriosam hic tenetur recusandae aliquid omnis culpa
+                  Nuestra misión es crear soluciones de software personalizadas e innovadoras. Trabajando con ética y profesionalismo, ofreciendo un servicio excepcional y brindando un valor real a nuestros clientes.
                 </p>
               </div>
             </aside>
@@ -26,12 +28,12 @@ const Services = () => {
         </article>
         <article>
           <a className='service-card'>
-            <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+            <img  src={sec2} />
             <aside className="service-card-info">
               <div>
-                <h3>Lorem ipsum,</h3>
+                <h3>Visión</h3>
                 <p className='service-card-p'>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus laboriosam hic tenetur recusandae aliquid omnis culpa
+                  Nuestra visión es ser líderes en la industria de desarrollo de software, reconocidos por nuestra capacidad de crear soluciones de software de alta calidad y transformadoras.
                 </p>
               </div>
             </aside>
@@ -39,12 +41,12 @@ const Services = () => {
         </article>
         <article>
           <a className='service-card'>
-            <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+            <img  src={sec3} />
             <aside className="service-card-info">
               <div>
-                <h3>Lorem ipsum,</h3>
+                <h3>Cultura de Empresa</h3>
                 <p className='service-card-p'>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus laboriosam hic tenetur recusandae aliquid omnis culpa
+                  En nuestra empresa, creemos en una cultura de innovación, colaboración y crecimiento continuo. Buscamos fomentar un ambiente de trabajo donde nuestros empleados se sientan valorados y respetados, y donde se les dé la oportunidad de alcanzar su máximo potencial.
                 </p>
               </div>
             </aside>

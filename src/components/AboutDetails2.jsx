@@ -3,7 +3,7 @@ import DimensionamientoEquipo from '../assets/img/dimensionamientoEquipo.png'
 import { Link } from 'react-router-dom'
 const AboutDetails2 = () => {
     return (
-        < section className='about-details-2' >
+        < section className='about-details-1' >
             <div className="section-about container full-lg-screem ">
                 <article className='text-lg-left-about'>
                     <aside className="text-center-about text-lg-left-about">
