@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const FooterSection = ({ imgFooter }) => {
     return (
         <>{imgFooter && <article style={{
-            backgroundImage: `url("${imgFooter}")`,
+            backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.748)), url("${imgFooter}")`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
         }}>

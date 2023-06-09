@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding-bottom: 20px;
     background-color: var(--five-color);
     font-family: 'Poppins-Regular';
     min-height: 100vh;
@@ -31,13 +31,17 @@
     height: auto;
 
 }
+.svg-content a:hover{
+    background-color: var(--five-color);
+
+}
 
 
 
 .logo-fcontent>h2 {
     position: absolute;
     bottom: 0;
-    left: 0;
+    left: 2px;
     width: 100%;
     text-align: center;
     margin: 0;
@@ -61,136 +65,14 @@
 }
 
 @media screen and (min-width: 768px) {
-
+.svg-footer{
+    margin-bottom: 20px;
+}
     .footer {
         min-height: 40vh;
+        padding-top: 20px;
+        padding-bottom: 50px;
 
     }
 
 }
-
-/* .footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    background-color: var(--five-color);
-    margin-bottom: 40px;
-    font-family: 'Poppins-Regular';
-    min-height: 95vh;
-    padding-top: 50px;
-}
-
-.footer-content {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-
-.logo-footer {
-    height: 100px;
-    width: 180px;
-}
-
-.column {
-    flex-basis: 50%;
-    text-align: center;
-}
-
-.column>p {
-    color: var(--four-color);
-}
-
-.column>h4 {
-    color: var(--four-color);
-}
-
-.column.wider {
-
-    flex-basis: 100%;
-
-}
-
-.column.wider>p {
-    text-align: center;
-    font-size: 0.9rem;
-}
-
-.column>p {
-    font-size: 0.9rem;
-}
-
-.svg-footer {
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 1rem;
-    margin-right: 1rem;
-
-}
-
-
-
-.svg-icon path {
-    fill: var(--white-color);
-}
-
-.footer-end {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    padding: 0rem 1rem;
-    justify-content: space-around;
-    border-top: 1px solid #324A5F;
-}
-
-.footer-end p {
-    color: var(--four-color);
-    font-family: 'Poppins-Light';
-}
-
-@media screen and (min-width: 768px) {
-
-    .column {
-        flex: 1;
-    }
-
-    .column.wider {
-        flex: 2;
-    }
-
-    .footer {
-        min-height: 40vh;
-
-    }
-
-    .footer-end {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    .svg-content {
-        margin-right: 1rem;
-    }
-
-}
-
-@media screen and (min-width: 1024px) {
-
-
-    .svg-icon {
-        margin-right: 1rem;
-    }
-
-    .footer {
-        margin-bottom: 0px;
-    }
-
-    .column.wider {
-        flex: 2;
-    }
-} */

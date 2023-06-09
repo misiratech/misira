@@ -36,7 +36,6 @@ a {
 }
 
 a:hover {
-  opacity: 0.75;
   background-color: #1B2A41;
 }
 
@@ -91,9 +90,9 @@ p {
 }
 .section-title {
   text-align: center;
-  padding: 2rem 1rem;
   font-size: 2.5rem;
   color: var(--white-color);
+  padding-bottom: 2rem;
 }
 .btn {
   border-radius: .5rem;

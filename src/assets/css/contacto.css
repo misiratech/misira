@@ -6,24 +6,13 @@
     background-size: cover;
     background-position: center;
 }
-
-/* .contacto::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.526)), url('../img//img7.jpg');
-    background-size: cover;
-    background-position: center;
-    animation: zoomInOut 8s ease-in-out infinite alternate;
-    z-index: -1;
-} */
-
-
-
-
+.btn-hover{
+    transition: all 0.5s ease-out;
+}
+.btn-hover:hover{
+    background-color: #1B2A41;
+    cursor: pointer;
+}
 
 .section-contacto {
     padding: 2rem 1rem;

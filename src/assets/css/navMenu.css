@@ -16,11 +16,15 @@
 
 }
 
-.logo {
+.logo-nav {
   text-decoration: none;
   color: var(--white-color);
   font-family: 'Poppins-Bold';
   margin-right: 40px;
+}
+
+.logo-nav:hover {
+  background-color: var(--five-color);
 }
 
 .logo-content {
@@ -30,9 +34,9 @@
 
 
 .log-letter {
-position: absolute;
-top: 26px;
-left: 85px;
+  position: absolute;
+  top: 26px;
+  left: 85px;
 }
 
 

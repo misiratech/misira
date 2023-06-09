@@ -1,5 +1,5 @@
 .proyect {
-    background-color: var(--five-color);
+    background-color: #0e1d29;
     padding: 2rem 0rem;
 }
 
@@ -9,9 +9,6 @@
     align-items: center;
 }
 
-.section-proyect h2{
-    padding-bottom: 4rem;
-}
 
 .swiper-card {
     position: relative;

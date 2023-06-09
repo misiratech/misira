@@ -61,7 +61,7 @@
 
 
 
-
+/* 
 .btn-home {
   border-radius: .5rem;
   padding: 0.6rem;
@@ -74,7 +74,7 @@
   cursor: pointer;
   color: var(--white-color);
   background-color: var(--first-color);
-}
+} */
 
 .btn-home>svg {
   height: 2rem;

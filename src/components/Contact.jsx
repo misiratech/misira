@@ -78,7 +78,6 @@ const Contact = () => {
       setLoading(true)
       const resp = await fetchEmailJs(`email/send`, data, 'POST');
       const body = await resp.text();
-      console.log(body)
       if (body === "OK") {
         Swal.fire({
           icon: 'success',
@@ -133,7 +132,7 @@ const Contact = () => {
                 <label htmlFor="mensaje">Mensaje:</label>
                 <textarea id="mensaje" name="message" value={message} placeholder="Escribe tu mensaje" onChange={onChangeForm}></textarea>
               </div>
-              {!isLoading ? <button type="submit">Enviar</button> :
+              {!isLoading ? <div className='btn btn-hover' onClick={sendEmail}>Enviar</div> :
                 <div className='spinner'>
                   <SyncLoader
                     color={'#36d7b7'}

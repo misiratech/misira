@@ -11,7 +11,7 @@ const NavMenu = () => {
 
         <header className="header">
             <section className="container">
-                <Link className='logo' to="/">
+                <Link className='logo-nav' to="/">
                     <div className='logo-content'>
                         <img className="log-img" src={Logo} alt="Logo" />
                         <span className="log-letter">ISIRA</span>
@@ -45,13 +45,14 @@ const NavMenu = () => {
                 <nav className={`menu ${isActive ? 'is-active' : ''}`}>
 
                     {/* <NavLink to="/misira/nosotros">Nosotros</NavLink> */}
-                    {location.pathname === "/misira" ? <>
+                    {location.pathname === "/misira/" ? <>
                         <a href="#home">Inicio</a>
-                        <a href='#service'>Nosotros</a>
+                        <a href='#about'>Nosotros</a>
+                        <a href='#features'>Promitech</a>
                         <a href='#contact'>Contacto</a>
                     </> : 
                     <>
-                        <NavLink to="/misira">Inicio</NavLink>
+                        <NavLink to="/misira/">Inicio</NavLink>
                     </>}
 
                 </nav>

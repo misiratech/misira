@@ -7,7 +7,7 @@ const About = () => {
   
   return (
     <section id="about" className='about'>
-      <div className="about-section container">
+      <div className="about-section container full-lg-screen ">
         <div className="about-title">
           <h2 className='section-title'>
             ACERCA DE NOSOTROS

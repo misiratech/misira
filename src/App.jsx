@@ -6,8 +6,6 @@ import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom'
 import Footer from './components/Footer';
 import './assets/css/root.css'
 import { register } from 'swiper/element/bundle';
-// import SectionDetail from './components/SectionDetail';
-import './assets/css/sectionDetails.css'
 import ScrollToTop from './components/ScrollToTop'
 import Info1 from './components/info1'
 import Info2 from './components/info2'
@@ -30,7 +28,6 @@ function App() {
           <NavMenu />
           <Routes>
             <Route path='/misira' element={<MainContent />} />
-            {/* <Route path='/informacion' element={<SectionDetail />} /> */}
             <Route path='/misira/informacion1' element={<Info1 />} />
             <Route path='/misira/informacion2' element={<Info2 />} />
             <Route path='/misira/informacion3' element={<Info3 />} />
