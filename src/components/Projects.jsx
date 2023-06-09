@@ -12,7 +12,8 @@ import card4 from '../assets/img/celdasFlotacion.png'
 const Projects = () => {
     return (
         <section className='proyect'>
-            <div className="section-proyect  full-lg-screem">
+            <div className="section-proyect">
+                <h2 className='section-title'>PRÓXIMOS PROYECTOS</h2>
                 <article className='slide-proyects'>
                     <Swiper
                         spaceBetween={20}

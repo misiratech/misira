@@ -29,11 +29,6 @@ html {
 
 body {
   margin: 0;
-  /* overflow-x: hidden;
-  background-image: url('../img/img11.jpg');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed; */
 }
 
 a {
@@ -42,6 +37,7 @@ a {
 
 a:hover {
   opacity: 0.75;
+  background-color: #1B2A41;
 }
 
 h1 {
@@ -93,7 +89,12 @@ p {
   margin-right: auto;
   max-width: var(--max-width);
 }
-
+.section-title {
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 2.5rem;
+  color: var(--white-color);
+}
 .btn {
   border-radius: .5rem;
   padding: 1rem;
@@ -103,10 +104,12 @@ p {
   text-align: center;
   text-decoration: none;
   color: var(--white-color);
-  background-color: var(--first-color);
+  background-color: #00B798;
+  border-radius: 10px 0px 10px 0px;
 }
 
 p {
   font-family: 'Poppins-Medium';
-  color: var(--second-color);
+  color: var(--four-color);
+  text-align: justify;
 }

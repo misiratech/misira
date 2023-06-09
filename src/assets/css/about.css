@@ -1,108 +1,119 @@
+
 .about {
     background-color: var(--five-color);
 }
 
-.about-details-1 {
-    background-color: rgba(0, 0, 0, 0.526);
-}
-
-
-
-
-
-.section-about {
-    padding: 2rem 1rem;
-}
-
-.section-about-details {
-    padding: 2rem 1rem;
-}
-
-
-.text-center-about {
+.about-title {
+    margin: 2rem auto;
     text-align: center;
+    padding: 2rem 0;
+    color: var(--black-color);
 }
 
-.img-about {
-    max-width: 500px;
-    transition: transform 0.5s ease;
-
+.about-section {
+    padding: 4.5rem 1rem;
 }
 
-.text-center-about>h2 {
-    color: var(--four-color);
-
-
-}
-
-.text-lg-left-about>p {
-
-    color: var(--four-color);
-
-}
-
-.img-content-about {
-    display: flex;
-    justify-content: center;
-
-}
-
-.img-card-about {
+.about-card {
     position: relative;
-    margin: 0 auto;
+    margin: 1rem auto;
+    max-width: 380px;
+    display: block;
 }
 
+.about-card-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--first-color);
+    padding: 1rem;
+    opacity: 0;
+    border-radius: 20px;
+    pointer-events: none;
+    transition: all 0.5 ease-in-out;
 
-@media screen and (min-width: 1024px) {
-    .img-about {
-        max-width: 660px;
-        transition: transform 0.5s ease;
+}
 
-    }
+.about-card:hover .about-card-info {
+    opacity: 1;
+    pointer-events: auto;
+}
 
-    .full-lg-screem {
-        width: 100%;
-        min-height: 85vh;
-    }
+.about-card-info>div {
+    padding: 1rem;
+    border: thin solid var(--white-color);
+    width: 100%;
+    height: 100%;
+}
 
-    .section-about {
+.about-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.about-card h3 {
+    color: var(--white-color);
+}
+
+.about-card p {
+    color: var(--white-color);
+}
+
+.h2-about {
+    font-size: 30px;
+    color: var(--four-color);
+}
+
+.p-about {
+    color: var(--four-color);
+}
+
+.about-card-p {
+    font-size: 0.8rem;
+
+}
+@media screen and (min-width: 768px) {
+    .about>.container {
         display: grid;
-        grid-template-columns: repeat(2, 45%);
+        grid-template-columns: repeat(3, 30%);
         justify-content: space-between;
         align-content: center;
-        align-items: center;
     }
 
-    .text-center-about>h2 {
+    .about-card-p {
+        font-size: 1rem;
+
+    }
+
+
+    .about .about-title {
+        grid-column: span 3;
+    }
+
+    .h2-about {
         font-size: 3rem;
-
+        text-align: start;
     }
 
-    .text-lg-left-about>p {
-        margin-bottom: 2.5rem;
-        text-align: justify;
+    .p-about {
+        text-align: start;
+        margin-left: 50px
     }
-
-    .text-lg-left-about {
-        text-align: left;
-    }
-
-    .about:hover .img-about {
-        transform: scale(1.2);
-    }
-
-    .about-details-1:hover .img-about {
-        transform: scale(1.2);
-    }
-
-    .about-details-1 .section-about .text-lg-left-about {
-        order: 2;
-    }
-
-    .about-details-1 .section-about .img-content-about {
-        order: 1;
-    }
-
- 
 
 }
+
+/* @keyframes zoomInOut {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+} */

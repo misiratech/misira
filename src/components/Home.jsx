@@ -1,63 +1,51 @@
 import React, { useEffect } from 'react'
 import '../assets/css/home.css'
-import { Link, useLocation, useNavigate } from 'react-router-dom'
 import { useState } from 'react';
+import img11 from '../assets/img/img11.jpg'
+import TypingText from './TypingText';
 const Home = () => {
 
-  // const text = "Desarrolladores de software metalúrgico";
-  // const [displayText, setDisplayText] = useState('');
-
-  // useEffect(() => {
-  //   let currentIndex = 0;
-  //   const intervalId = setInterval(() => {
-  //     setDisplayText(text.substring(0, currentIndex + 1));
-  //     currentIndex++;
-
-  //     if (currentIndex === text.length) {
-  //       clearInterval(intervalId);
-  //     }
-  //   }, 100);
-
-  //   return () => {
-  //     clearInterval(intervalId);
-  //   };
-  // }, []);
 
 
-  const words = ["“Desarrolladores de software metalúrgico”", "“Innovación tecnologica”"];
-  const [currentWordIndex, setCurrentWordIndex] = useState(0);
-  const [displayText, setDisplayText] = useState('');
+  const [scrollPosition, setScrollPosition] = useState(0);
+  const [saturation, setSaturation] = useState(100);
+  const maxValue = 120
+  const minValue = 70
+  const handleScroll = () => {
+    const position = window.pageYOffset || document.documentElement.scrollTop;
+    setScrollPosition(position);
+  };
 
   useEffect(() => {
-    let currentIndex = 0;
-    const intervalId = setInterval(() => {
-      setDisplayText(words[currentWordIndex].substring(0, currentIndex + 1));
-      currentIndex++;
-      if (currentIndex === words[currentWordIndex].length) {
-        clearInterval(intervalId);
-
-        setTimeout(() => {
-          setCurrentWordIndex((currentWordIndex + 1) % words.length);
-        }, 2000);
-      }
-    }, 100);
-
+    window.addEventListener('scroll', handleScroll);
     return () => {
-      clearInterval(intervalId);
+      window.removeEventListener('scroll', handleScroll);
     };
-  }, [currentWordIndex]);
+  }, []);
 
+  useEffect(() => {
+    const saturationValue = (scrollPosition / window.innerHeight) * 100;
+    const saturationPercentage = maxValue - saturationValue;
+    if (saturationPercentage > minValue) {
+      setSaturation(saturationPercentage);
+    }
+
+  }, [scrollPosition]);
 
 
   return (
     <section id="home" className="section-home">
+      <div
+        className="image-overlay"
+        style={{
+          backgroundImage: `url(${img11})`,
+          filter: `saturate(${saturation}%)`,
+        }}
+      />
       <article className='hero-image'>
         <aside className='hero-image-opacity'>
           <div className='hero-image-content'>
-            <h1 className="home-title">MISIRA</h1>
-            <h2 className='description'>{displayText}
-              <span className="cursor"></span>
-            </h2>
+            <TypingText/>
             <div className='content-btn-home'>
               <a href='#contact' className='btn-home'>
                 Contáctanos

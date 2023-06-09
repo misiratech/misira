@@ -115,7 +115,7 @@ const Contact = () => {
           </div>
           <div className="column-form">
             <form onSubmit={sendEmail} className="form">
-              <h2 className='h2-contacto'>Contacta a Misira</h2>
+              <h2 className='h2-contacto'>CONTACTA A MISIRA</h2>
               <div className="form-group">
                 <label htmlFor="nombre">Nombre:</label>
                 <input type="text" name="user_name" value={user_name} placeholder="Ingresa tu nombre" onChange={onChangeForm} />

@@ -36,8 +36,6 @@ function App() {
             <Route path='/misira/informacion3' element={<Info3 />} />
             <Route path='/misira/informacion4' element={<Info4 />} />
             <Route path='/misira/informacion5' element={<Info5 />} />
-            {/* <Route path='/misira/contacto' element={<Contact />} /> */}
-            {/* <Route path='/misira/nosotros' element={<Services />} /> */}
             <Route path="*" element={<Navigate to="/misira" />} />
           </Routes>
           <Footer />
