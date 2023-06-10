@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 
 const TypingText = () => {
 
-    const words = ["“Desarrolladores de software metalúrgico”", "“Innovación tecnologica”"];
+    const words = ["“Desarrolladores de software metalúrgico”", "“Innovación tecnológica”"];
     const [currentWordIndex, setCurrentWordIndex] = useState(0);
     const [displayText, setDisplayText] = useState('');
 

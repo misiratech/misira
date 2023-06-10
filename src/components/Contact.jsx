@@ -124,8 +124,8 @@ const Contact = () => {
                 <input type="email" name="user_email" value={user_email} placeholder="Ingresa tu email" onChange={onChangeForm} />
               </div>
               <div className="form-group">
-                <label htmlFor="telefono">Telefono:</label>
-                <input type="text" name="user_phone" value={user_phone} placeholder="Ingresa tu telefono" onChange={onChangeForm} />
+                <label htmlFor="telefono">Teléfono:</label>
+                <input type="text" name="user_phone" value={user_phone} placeholder="Ingresa tu teléfono" onChange={onChangeForm} />
               </div>
 
               <div className="form-group">
