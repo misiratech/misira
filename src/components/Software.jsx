@@ -8,7 +8,8 @@ import valConc1 from '../assets/img/valConc1.png'
 import '../assets/css/software.css'
 import FooterSection from './FooterSection'
 import metso2 from '../assets/img/metso2.jpg'
-
+const title2="¿POR QUÉ DEBERIA COMPRARLO?"
+const description2="Porque nuestro software es intuitivo y fácil de usar. No necesitas ser un experto en programación o metalurgia para aprovechar al máximo sus funciones. Te guiaremos paso a paso para que puedas empezar a utilizarlo de inmediato y obtener resultados tangibles en poco tiempo."
 
 const Software = () => {
   return (
@@ -62,7 +63,7 @@ const Software = () => {
           </a>
         </div>
       </div>
-      <FooterSection imgFooter={metso2} />
+      <FooterSection title={title2} description={description2} imgFooter={metso2} />
     </section>
 
   )

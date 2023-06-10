@@ -5,7 +5,7 @@ import Software from './Software'
 import Features from './Features'
 import About from './About';
 import Contact from './Contact';
-
+import '../assets/css/sectionDetails.css'
 
 const MainContent = () => {
     return (

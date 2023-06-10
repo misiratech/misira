@@ -9,6 +9,8 @@ import metso from '../assets/img/metso.jpg'
 import { Link } from 'react-router-dom'
 import FooterSection from './FooterSection'
 import '../assets/css/features.css'
+const title1="50% DESCUENTO"
+const description1="Si eres estudiantes, no pierdas la oportunidad de acceder a nuestro software que te ayudará a destacar en tu vida académica. Recuerda, esta oferta es por tiempo limitado, así que asegúrate de aprovecharla mientras puedas."
 const Features = () => {
   return (
     < section id='features' className='features'>
@@ -77,7 +79,7 @@ const Features = () => {
         </article>
    
       </div>
-      <FooterSection imgFooter={metso}/>
+      <FooterSection title={title1} description={description1} imgFooter={metso}/>
     </section >
   )
 }
@@ -88,62 +90,5 @@ export default Features
 
 
 
-
-
-
-{/* < section className='features'>
-<div className="section-features container">
-  
-  <h2 className="section-title order-1 item">CARACTERISTICAS</h2>
-
-  <div className='img-p order-2 item' >
-    <img src={img9} alt="img-about" />
-  </div>
-
-
-  <article className='features-info order-3 item'>
-    <h3>Balance de Masa</h3>
-    <p>El módulo de balance de masa se utiliza para determinar cómo se distribuyen los materiales en un sistema metalúrgico. Permite realizar un seguimiento de los flujos de entrada y salida de materiales en un proceso metalúrgico, y calcular las pérdidas o ganancias de masa en cada etapa.</p>
-    <Link className="btn" to="/misira/informacion2">Más información</Link>
-  </article>
-
-  <div className='img-s order-4 item'>
-    <img src={img9} alt="img-about" />
-  </div>
-
-  <article className='features-info order-5 item'>
-    <h3>Balance de Masa</h3>
-    <p>El módulo de balance de masa se utiliza para determinar cómo se distribuyen los materiales en un sistema metalúrgico. Permite realizar un seguimiento de los flujos de entrada y salida de materiales en un proceso metalúrgico, y calcular las pérdidas o ganancias de masa en cada etapa.</p>
-    <Link className="btn" to="/misira/informacion2">Más información</Link>
-  </article>
-
-  <div className='img-s order-6 item'>
-    <img src={img9} alt="img-about" />
-  </div>
-
-
-  <article className='features-info order-7 item' >
-    <h3>Balance de Masa</h3>
-    <p>El módulo de balance de masa se utiliza para determinar cómo se distribuyen los materiales en un sistema metalúrgico. Permite realizar un seguimiento de los flujos de entrada y salida de materiales en un proceso metalúrgico, y calcular las pérdidas o ganancias de masa en cada etapa.</p>
-    <Link className="btn" to="/misira/informacion2">Más información</Link>
-  </article>
-
-  <div className='img-s order-8 item'>
-    <img src={img9} alt="img-about" />
-  </div>
-
-  
-  <article className='features-info order-9 item' >
-    <h3>Balance de Masa</h3>
-    <p>El módulo de balance de masa se utiliza para determinar cómo se distribuyen los materiales en un sistema metalúrgico. Permite realizar un seguimiento de los flujos de entrada y salida de materiales en un proceso metalúrgico, y calcular las pérdidas o ganancias de masa en cada etapa.</p>
-    <Link className="btn" to="/misira/informacion2">Más información</Link>
-  </article>
-
-  <div className='img-s order-10 item'>
-    <img src={img9} alt="img-about" />
-  </div>
-</div>
-</section >
- */}
 
 
